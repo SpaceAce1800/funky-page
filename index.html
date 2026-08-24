@@ -4,8 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        h1 {
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .links {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .links li {
+            margin: 15px 0;
+        }
+        
+        .links a {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 1.1em;
+        }
+        
+        .links a:hover {
+            background-color: #764ba2;
+        }
+    </style>
 </head>
 <body>
     <h1>hello world</h1>
+    
+    <div class="container">
+        <h2>Welcome to my Website</h2>
+        <p>Check out my pages:</p>
+        <ul class="links">
+            <li><a href="fairy-tale.html">📚 Fairy Tale by Stephen King</a></li>
+        </ul>
+    </div>
 </body>
 </html>
